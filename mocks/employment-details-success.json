@@ -1,71 +1,67 @@
 {
     "payload": {
-      "title": "Add employment details",
-      "subtitle": "We need this information to verify your income. All details will be kept confidential.",
-      "formFields": [
-        {
-          "type": "EMPLOYER_NAME",
-          "label": "Employer name",
-          "editable": true,
-          "mandatory": true,
-          "error": null
-        },
-        {
-          "type": "WORK_EMAIL",
-          "label": "Work email",
-          "editable": true,
-          "mandatory": true,
-          "error": null
-        },
-        {
-          "type": "INDUSTRY_TYPE",
-          "label": "Industry type",
-          "editable": true,
-          "mandatory": true,
-          "error": null,
-          "options": [
-            "Software",
-            "Real estate",
-            "Banking",
-            "Aviation",
-            "Finance",
-            "Music",
-            "Sports"
-          ]
-        },
-        {
-          "type": "SUB_INDUSTRY_TYPE",
-          "label": "Sub-Industry type",
-          "editable": false,
-          "mandatory": true,
-          "error": null
-        },
-        {
-          "type": "AVERAGE_MONTHLY_SALARY",
-          "label": "Average monthly salary",
-          "preFilledText": "$2000",
-          "editable": false,
-          "mandatory": true,
-          "error": null
-        }
-      ],
-      "actions": [
-        {
-          "action": "XPRESS_CONFIRM_EMPLOYMENT_DETAILS",
-          "url": "/v1/xpress-cash/confirm-employment-details",
-          "type": "PRIMARY",
-          "title": "Confirm details"
-        },
-        {
-          "action": "XPRESS_GET_SUB_INDUSTRY",
-          "url": "/v1/xpress-cash/get-sub-industry-type",
-          "type": "SUB_INDUSTRY_TYPE"
-        },
-        {
-          "action": "XPRESS_GET_EMPLOYER_NAME",
-          "url": "/v1/xpress-cash/employer-name",
-          "type": "EMPLOYER_NAME"
-        }
-      ]
+        "title": "Add employment details",
+        "subtitle": "We need this information to verify your income. All details will be kept confidential.",
+        "imageUrl": "/products/xpress/animation_nach.json",
+        "actions": [
+            {
+                "action": "XPRESS_INCOME_VERIFICATION",
+                "url": "/v1/xpress-cash/confirm-employment-details",
+                "title": "Confirm details",
+                "type": "PRIMARY"
+            },
+            {
+                "action": "XPRESS_GET_SUB_INDUSTRY",
+                "url": "/v1/xpress-cash/get-sub-industry-type",
+                "type": "SUB_INDUSTRY_TYPE"
+            },
+            {
+                "action": "XPRESS_GET_EMPLOYER_NAME",
+                "url": "/v1/xpress-cash/employer-name",
+                "type": "EMPLOYER_NAME"
+            }
+        ],
+        "formFields": [
+            {
+                "type": "EMPLOYER_NAME",
+                "label": "Employer name",
+                "editable": true,
+                "mandatory": true
+            },
+            {
+                "type": "WORK_EMAIL",
+                "label": "Work email",
+                "editable": true,
+                "mandatory": true
+            },
+            {
+                "type": "INDUSTRY_TYPE",
+                "label": "Industry type",
+                "editable": true,
+                "mandatory": true,
+                "options": [
+                    "Software",
+                    "Real estate",
+                    "Banking",
+                    "Aviation",
+                    "Finance",
+                    "Music",
+                    "Sports"
+                ]
+            },
+            {
+                "type": "SUB_INDUSTRY_TYPE",
+                "label": "Sub-Industry type",
+                "editable": true,
+                "mandatory": true
+            },
+            {
+                "type": "AVERAGE_MONTHLY_SALARY",
+                "preFilledText": "$2000",
+                "label": "Average monthly salary",
+                "editable": true,
+                "mandatory": true
+            }
+        ]
     }
-  }
+}
