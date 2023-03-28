@@ -1,0 +1,41 @@
+{
+    "payload": {
+      "title": "Add a new bank account",
+      "subtitle": "This is where we’ll send you the money",
+      "formFields": [
+        {
+          "type": "BANK_NAME",
+          "label": "Bank name",
+          "editable": true,
+          "mandatory": true,
+          "error": null
+        },
+        {
+          "type": "ACCOUNT_NUMBER",
+          "label": "Account number",
+          "editable": true,
+          "mandatory": true,
+          "error": null
+        },
+        {
+          "type": "IFSC_CODE",
+          "label": "IFSC code",
+          "editable": true,
+          "mandatory": true,
+          "error": null
+        }
+      ],
+      "actions": [
+        {
+          "action": "XPRESS_CONFIRM_BANK",
+          "url": "/v1/xpress/confirm-bank",
+          "type": "PRIMARY"
+        },
+        {
+          "action": "XPRESS_GET_BANK_LIST",
+          "url": "/v1/xpress/get-bank-list",
+          "type": "BANK_NAME"
+        }
+      ]
+    }
+  }

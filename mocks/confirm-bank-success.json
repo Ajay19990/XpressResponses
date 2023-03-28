@@ -1,0 +1,11 @@
+{
+    "payload": {
+      "actions": [
+        {
+          "action": "XPRESS_AGREEMENT",
+          "url": "/v1/xpress/agreement",
+          "type": "PRIMARY"
+        }
+      ]
+    }
+  }

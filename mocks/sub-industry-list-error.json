@@ -1,0 +1,10 @@
+{
+    "payload": {
+      "status": 400,
+      "type": "BAD_REQUEST",
+      "errorCode": "",
+      "title": "Umm.. this rarely happens",
+      "subtitle": "Could be a network issue or a technical error. Please check your connection and try again.",
+      "imageUrl": "https://imgbox.io/ib/MaPortoj99.png"
+    }
+  }

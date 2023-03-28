@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "actions": [
+      {
+        "action": "XPRESS_DECLINED",
+        "url": "v1/xpress/express-ineligible",
+        "type": "PRIMARY"
+      }
+    ]
+  }
+}

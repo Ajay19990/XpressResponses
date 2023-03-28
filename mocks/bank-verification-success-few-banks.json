@@ -1,0 +1,33 @@
+{
+  "payload": {
+    "title": "Choose a bank account to receive your loan",
+    "subtitle": "This is where we'll send you the money",
+    "imageUrl": null,
+    "actions": [
+      {
+        "action": "XPRESS_CONFIRM_BANK",
+        "url": "/v1/xpress/bank/verify",
+        "title": "Continue",
+        "type": "XPRESS_CONFIRM_BANK"
+      },
+      {
+        "action": "XPRESS_ADD_BANK",
+        "url": "/v1/xpress/bank/add-account",
+        "title": "Add new bank account",
+        "type": "XPRESS_ADD_BANK"
+      }
+    ],
+    "banks": [
+      {
+        "title": "ICICI Bank",
+        "imageUrl": "/products/bank_logos/icic.png",
+        "accountNumber": "*************5000",
+        "ifscCode": "ICIC0000088",
+        "refKey": "b60f0d62-cf49-46b6-a3d7-0a8914bb5f35",
+        "autoPaySetup": false,
+        "isNachSetup": false
+      }
+    ],
+    "bottomSheets": null
+  }
+}

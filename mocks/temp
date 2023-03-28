@@ -1,0 +1,86 @@
+{
+  "payload": {
+    "title": "Select a bank account",
+    "subtitle": "Add account is where you receive your income",
+    "banks": [
+      {
+          "title": "HDFC",
+          "imageUrl": "https://via.placeholder.com/48x48.png",
+          "accountNumber": "322xxxxxxxxxx24",
+          "ifscCode": "HDFC0001225",
+          "refkey": "refkey (used for sending back to backend in requestBody to verify the bank details)",
+          "isNachSetup": false
+        },
+        {
+          "title": "ICICI",
+          "imageUrl": "https://via.placeholder.com/48x48.png",
+          "accountNumber": "243xxxxxxxx34",
+          "ifscCode": "ICIC0001225",
+          "refkey": "refkey (used for sending back to backend in requestBody to verify the bank details)",
+          "isNachSetup": true
+        }
+    ],
+    "actions": [
+      {
+        "action": "XPRESS_ADD_BANK_AUTOPAY_INFO",
+        "type": "XPRESS_ADD_BANK",
+        "title": "Add new bank account"
+      },
+      {
+        "action": "XPRESS_CONFIRM_BANK_AUTOPAY_INFO",
+        "type": "XPRESS_CONFIRM_BANK_AUTOPAY",
+        "title": "Continue"
+      },
+      {
+        "action": "XPRESS_CONFIRM_BANK",
+        "url": "bank account form url",
+        "type": "XPRESS_CONFIRM_BANK",
+        "title": "Continue"
+      }
+    ],
+    "bottomSheets": [
+      {
+        "key": "XPRESS_ADD_BANK_AUTOPAY_INFO",
+        "type": "titleSubtitle",
+        "page": {
+          "title": "Auto-pay on your current bank account will be cancelled",
+          "subtitle": "If you continue with a new account, auto-pay on your HDFC XXXX 3921 account will be cancelled.  \nYou can always setup auto-pay on the new account later.",
+          "actions": [
+            {
+              "title": "Continue with new account",
+              "url": "path/to/bank/add/page",
+              "action": "XPRESS_ADD_BANK",
+              "type": "PRIMARY"
+            },
+            {
+              "title": "Cancel",
+              "action": "XPRESS_CANCEL",
+              "type": "SECONDARY"
+            }
+          ]
+        }
+      },
+      {
+        "key": "XPRESS_CONFIRM_BANK_AUTOPAY_INFO",
+        "type": "titleSubtitle",
+        "page": {
+          "title": "Auto-pay on your current bank account will be cancelled",
+          "subtitle": "If you continue with a new account, auto-pay on your HDFC XXXX 3921 account will be cancelled.  \nYou can always setup auto-pay on the new account later.",
+          "actions": [
+            {
+              "title": "Continue with new account",
+              "url": "bank account form url",
+              "action": "XPRESS_CONFIRM_BANK",
+              "type": "PRIMARY"
+            },
+            {
+              "title": "Cancel",
+              "action": "XPRESS_CANCEL",
+              "type": "SECONDARY"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

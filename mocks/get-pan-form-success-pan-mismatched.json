@@ -1,0 +1,188 @@
+{
+    "payload": {
+      "title": "Let's get started",
+      "subtitle": "Help us with a few details to find out how much you’re eligible for",
+      "imageUrl": "https://via.placeholder.com/300x400.png",
+      "formFields": [
+        {
+          "type": "FIRST_NAME",
+          "preFilledText": "Ankur",
+          "label": "First name (as per PAN card)",
+          "editable": true,
+          "mandatory": true,
+          "error": null
+        },
+        {
+          "type": "LAST_NAME",
+          "preFilledText": "Kesharwani",
+          "label": "Last name (as per PAN card)",
+          "editable": true,
+          "mandatory": true,
+          "error": null
+        },
+        {
+          "type": "DATE_OF_BIRTH",
+          "preFilledText": "20/07/1990",
+          "label": "Date of birth (dd/mm/yyyy)",
+          "editable": true,
+          "mandatory": true,
+          "error": null
+        },
+        {
+          "type": "GENDER",
+          "preFilledText": "Male",
+          "label": "Gender",
+          "editable": true,
+          "mandatory": true,
+          "error": null,
+          "options": [
+            "Male",
+            "Female"
+          ]
+        },{
+            "type": "CURRENT_PINCODE",
+            "preFilledText": "560017",
+            "label": "Current address PIN code",
+            "editable": true,
+            "mandatory": true,
+            "error": null,
+            "options": null
+          },
+        {
+          "type": "EMPLOYMENT_TYPE",
+          "preFilledText": "Salaried",
+          "label": "Employment status",
+          "editable": true,
+          "mandatory": true,
+          "error": null,
+          "options": [
+            "Salaried",
+            "Self-employed"
+          ]
+        },
+        {
+          "type": "MONTHLY_INCOME",
+          "preFilledText": "100000",
+          "label": "Monthly income",
+          "editable": true,
+          "mandatory": true,
+          "error": null,
+          "options": null
+        },
+        {
+          "type": "PAN_NUMBER",
+          "preFilledText": "DNWPK4098C",
+          "label": "PAN number",
+          "editable": true,
+          "mandatory": true,
+          "error": "Your PAN is linked to another LazyPay account",
+          "options": null
+        },
+        {
+          "type": "REASON_FOR_LOAN",
+          "preFilledText": "For Business",
+          "label": "Reason for loan",
+          "editable": true,
+          "mandatory": true,
+          "error": null,
+          "options": [
+            "Marriage / Function",
+            "Education",
+            "Medical Emergency",
+            "For Business",
+            "Travel",
+            "Home Improvement",
+            "New Car",
+            "Others"
+          ]
+        }
+      ],
+      "declarations": [
+        {
+            "type": "NON_MICRO_FINANCE_CONSENT",
+          "fullText": "Thereby confirm to PayU Finance India Private Limited that my annual household income is more than INR 3,00,000/- (Rupees Three Lakh), that is, on an average more than INR 25,000/- (Rupees Twenty-Five Thousand) per month. For purpose of this declaration, I have considered income of myself, my spouse and our unmarried children",
+          "content": "<html><head><style>@font-face{font-family:Roboto-Regular;font-weight:400;src:local('Roboto-Regular'),url(Roboto-Regular.ttf) format('opentype')}body{font-size:14px;font-family:Roboto-Regular;color:#000}</style></head><body style='color:#737373'>Thereby confirm to PayU Finance India Private Limited that my annual household income is more than INR 3,00,000/- (Rupees Three Lakh), that is, on an average more than INR 25,000/- (Rupees Twenty-Five Thousand) per month. For purpose of this declaration, I have considered income of myself, my spouse and our unmarried children</body></html>",
+          "links": []
+        },
+        {
+            "type": "BUREAU_AND_CKYC_CONSENT",
+          "fullText": "By continuing, I agree to Credit bureau and C-KYC consent",
+          "content": "<html><head><style>@font-face{font-family:Roboto-Regular;font-weight:400;src:local('Roboto-Regular'),url(Roboto-Regular.ttf) format('opentype')}body{font-size:14px;font-family:Roboto-Regular;color:#000}</style></head><body style='color:#737373'>By continuing, I agree to <b><a href='PROCESSING-FEE'>Credit bureau</a></b> and <b><a href='PROCESSING-FEE'>C-KYC consent</a></b></body></html>",
+          "links": [
+            {
+              "key": "Credit bureau"
+            },
+            {
+              "key": "C-KYC consent"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "action": "XPRESS_SUBMIT_PAN",
+          "url": "v1/xpress/pan-form",
+          "type": "PRIMARY",
+          "title": "Check eligibility"
+        }
+      ],
+      "bottomSheets": [
+        {
+          "key": "error",
+          "type": "titleSubtitle",
+          "page": {
+            "title": "Your PAN is linked to another LazyPay account",
+            "subtitle": "Please recheck your PAN details or try unlinking PAN CABRR3629D from the account linked to mobile number XXXXXX2759",
+            "imageUrl": "https://via.placeholder.com/48x48.png",
+            "actions": [
+                {
+                    "action": "XPRESS_RECHECK_PAN",
+                    "url": "path/for/delinking/need-help",
+                    "title": "Recheck PAN details",
+                    "type": "PRIMARY"
+                },
+                {
+                    "action": "XPRESS_TRY_DELINKING",
+                    "url": "path/for/delinking/need-help",
+                    "title": "Unlink PAN",
+                    "type": "SECONDARY"
+                }
+            ]
+          }
+        },
+        {
+            "key": "Credit bureau",
+            "type": "titleSubtitle",
+            "page": {
+              "title": "Credit Bureau consent",
+              "subtitle": "I verify that the details above are true and correct and hereby provide consent to check my credit score from the bureau.",
+              "actions": [
+                  {
+                      "action": "OK_GOT_IT",
+                      "url": null,
+                      "title": "Okay, got it",
+                      "type": "PRIMARY"
+                  }
+              ]
+            }
+          },
+          {
+            "key": "C-KYC consent",
+            "type": "titleSubtitle",
+            "page": {
+              "title": "C-KYC consent",
+              "subtitle": "I hereby authorize PayU Finance to pull my CKYC identifier, on my behalf from the CKYC Registry and thereafter use the CKYC identifier to pull my KYC documents as may be available with CKYC registry.",
+              "actions": [
+                {
+                    "action": "OK_GOT_IT",
+                    "url": null,
+                    "title": "Okay, got it",
+                    "type": "PRIMARY"
+                }
+              ]
+            }
+          }
+      ]
+
+    }
+  }

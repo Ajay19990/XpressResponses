@@ -1,0 +1,23 @@
+{
+    "payload": {
+      "status": 400,
+      "type": "BAD_REQUEST",
+      "errorCode": "IFSC_CODE_MISMATCH",
+      "title": "IFSC code for HDFC Bank has changed",
+      "subtitle": "Due to the merger between HDFC Bank and ICICI Bank, your IFSC code will be automatically updated from HDFC0281 to ICFC00281",
+      "info": [
+        {
+          "key": "UPDATED_IFSC_CODE",
+          "value": "ICICI24563"
+        }
+      ],
+      "actions": [
+        {
+          "title": "Update and continue",
+          "action": "UPDATE_IFSC_CODE",
+          "url": "/v1/xpress/confirm-bank",
+          "type": "PRIMARY"
+        }
+      ]
+    }
+}

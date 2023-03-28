@@ -1,0 +1,702 @@
+{
+    "payload": {
+        "title": "Bank Name",
+        "sections": [
+            {
+                "title": "Popular Banks",
+                "items": [
+                    {
+                        "title": "ICICI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "STATE BANK OF INDIA",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "HDFC BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "KOTAK MAHINDRA BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "AXIS BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    }
+                ]
+            },
+            {
+                "title": "All Banks",
+                "items": [
+                    {
+                        "title": "ABHYUDAYA CO-OPERATIVE BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "AMAN SAHAKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "AMBARNATH JAI-HIND CO-OP.BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "ANDHRA BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "ANDHRA PRAGATHI GRAMEENA BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "AXIS BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "BANK OF BARODA",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "BANK OF INDIA",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "BANK OF MAHARASHTRA",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "BASSEIN CATHOLIC CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "BHARATI SAHAKARI BANK LTD. PUNE",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "BHILWARA URBAN CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "BHOPAL CO OPERATIVE CENTRAL BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "BIHAR GRAMIN BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "BNP PARIBAS",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "CANARA BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "CENTRAL BANK OF INDIA",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "CHAMOLI ZILA SAHKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "CITIBANK N A",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "CITIZEN CO OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "CITY UNION BANK LIMITED",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "COMMERCIAL COOP BANK LIMITED",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "CORPORATION BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "DCB BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "DENA BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "DEUTSCHE BANK AG",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "DEVELOPMENT BANK OF SINGAPORE",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "DHARMAPURI DISTRICT CENTRAL CO OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "DURGAPUR STEEL PEOPLES' COOP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "FEDERAL BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "FINGROWTH CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "GOPINATH PATIL PARSIK JANATA SAHAKARI BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "GUARDIAN SOUHARDA SAHAKARI BANK NIYAMITA",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "HDFC BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "ICICI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "IDBI BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "IDFC BANK LIMITED",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "INDUSIND BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "INTEGRAL URBAN CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "J.P.MORGAN CHASE BANK N.A",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "J&K GRAMEEN BANK ACH",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "JANAKALYAN SAHAKARI BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "JANASEVA SAHAKARI BANK (BORIVLI) LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "JANATA SAHAKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "JHARKHAND STATE CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "JHARNESHWAR NAGRIK SAHAKARI BANK MARYADIT",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "JODHPUR NAGRIK SAHAKARI BANK LIMITED",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "KALLAPPANNA AWADE ICHALKARANJI JANATASAHAKARI BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "KARNALA NAGARI SAHAKARI BANK LTD. PANVEL",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "KARNATAKA BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "KARNATAKA VIKAS GRAMEENA BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "KARUR VYSA BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "KONOKLOTA MAHILA URBAN COOP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "KOTAK MAHINDRA BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "KOZHIKODE DISTRICT COOPERATIVE BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "LAXMIBAI MAHILA NAGRIK SAHAKARI BANK MARADIT",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "LOKMANGAL CO-OP. BANK LTD. SOLAPUR",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "MADHTYA PRADESH RAJYA SAHAKARI BANK MARYADIT",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "MAHESH SAHAKARI BANK LTD. PUNE",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "MANORAMA CO-OP BANK LTD. SOLAPUR",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "MANSAROVAR URBAN CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "MEGHALAYA RURAL BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "NAGAR SAHAKARI BANK LTD. GORAKHPUR",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "NAGRIK SAHAKARI BANK LTD. LUCKNOW",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "NATIONAL URBAN COOPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "NEW INDIA CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "NOBLE COOPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "NOIDA COMMERCIAL CO-OPERATIVE BAK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "ORIENTAL BANK OF COMMERCE",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "OSMANABAD JANATA SAHAKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PALI URBAN CO OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PALLAVAN GRAMA BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PALUS SAHAKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PATHANMTHITTA DISTRICT CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PRATHAMA BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PROGRESSIVE URBAN CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PUNJAB & MAHARASHTRA CO-OPERATIVE BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PUNJAB GRAMIN BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PUNJAB NATIONAL BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "RAJARAMBAPU SAHAKARI BANK LTD. PETH",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "RAJDHANI NAGAR SAHKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "RAMGARHIA CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "RATNAKAR BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "RENDAL SAHAKARI BANK LTD. RENDAL",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SAMATA CO-OPERATIVE DEVELOPMENT BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SARASWAT BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SAURASHTRA GRAMIN BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SHIVAJI NAGARI SAHAKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SHREE KADI NAGARIK SAHAKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SHRI VEERSHAIV CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SHUSHRUTI SOUHARDA SAHAKARA BANK NIYAMITA",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SOLAPUR JANATA SAHAKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SOUTH INDIAN BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "STATE BANK OF INDIA",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "STERLING URBAN CO OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SVC CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "SYNDICATE BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "TAMILNAD MERCANTILE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "TELANGANA GRAMEENA BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE ADARSH COOPERATIVE URBAN BANK LIMITED",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE ADINATH COOP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE AGRASEN CO-OPERATIVE URBAN BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE AJARA URBAN CO-OP. BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE ANDHRA PRADESH STATE COOPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE BHARAT CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE BHARATH CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE BHUJ MERCENTILE COOP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE BORAL UNION CO OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE BURDWAN CENTRAL CO OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE CATHOLIC SYRIAN BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE CHANDIGARH STATE CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE CITIZENS URBAN COOPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE COSMOS CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE GAYATRI COOPERATIVE URBAN BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE GODHRA URBAN COOP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE GUJARAT STATE CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE GURUVAYUR CO-OPERATIVE URBAN BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE HONGKONG & SHANGHAI BANKING CORPORATION LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE KAIRA DIST CENTRAL CO OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE KANAKAMAHALAKSHMI CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE KANGRA CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE KARNATAKA STATE CO-OPERATIVE APEX BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE KHATTRI COOPERATIVE URBAN BANK LIMITED",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE KOTTAYAM DISTRICT CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE KURMANCHAL NAGAR SAHKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE LUDHIANA CENTRAL COOPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE MEGHALAYA COOPERATIVE APEX BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE MEHSANA URBAN CO-OPERATIVE BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE MUGBERIA CENTRAL CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE NILGIRIS DISTRICT CENTRAL COOP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE POCHAMPALLY COOPERATIVE URBAN BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE RAJPUTANA MAHILA URBAN CO OPERATIVE BAK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE SALEM DISTRICT CENTRAL CO-OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE SHILLONG COOPERATIVE URBAN BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE SOLAPUR SOCIAL URBAN CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE SURAT DISTRICT CO-OP BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE SUTEX CO-OP.BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE TRIVANDRUM CO-OPERATIVE URBAN BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE UDAIPUR MAHILA SAMRIDHI URBAN CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE UDAIPUR MAHILA URBAN CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE UDAIPUR URBAN CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE UTKAL COOPERATIVE BANKING SOCIETY LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE VAIDYANATH URBAN COOP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE VARACHHA CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE VELLORE DISTRICT CENTRAL CO-OP BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "THE VIJAY CO OPERATIVE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "TJSB SAHAKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "TUMKUR GRAIN MERCHANT'S CO-OPERATE BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "UCO BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "UTTARBANGA KSHETRIYA GRAMIN BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "VASAI JANATA SAHAKARI BANK LTD.",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "ZILA SAHAKARI BANK LTD. HARIDWAR",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "ZILA SAHKARI BANK LTD. GARHWAL KOTDWAR",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "VIJAYA BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "STANDARD CHARTERED BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "UJJIVAN SMALL FINANCE BANK LTD",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "EQUITAS SMALL FINANCE BANK LTD",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "INDIAN OVERSEAS BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PAYTM PAYMENTS BANK LTD",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "DBS BANK INDIA LTD",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "DHANALAXMI BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "DHANALAXMI BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "YES BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "JANA SMALL FINANCE BANK LTD",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    },
+                    {
+                        "title": "PUNJAB AND SIND BANK",
+                        "imageUrl": "https://via.placeholder.com/40x40.png"
+                    }
+                ]
+            }
+        ],
+        "emptyState": {
+            "imageUrl": "",
+            "title": "No banks found",
+            "subtitle": "Please check if you've typed the name of the bank correctly"
+        }
+    }
+}

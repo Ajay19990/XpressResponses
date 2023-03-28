@@ -1,0 +1,17 @@
+{
+    "payload": {
+      "status": 400,
+      "type": "BAD_REQUEST",
+      "errorCode": "MISSING_VALUES",
+      "title": "The robot messed up",
+      "message": "Looks like a technical issue. Don't worry, we've sent our human engineers to fix it. We'll let you know when it's done.",
+      "description": "All Kyc steps are already completed",
+      "actions":[
+        {
+            "action": "OK_GOT_IT",
+            "type": "PRIMARY",
+            "title": "Ok, got it"
+          }
+      ]
+    }
+}

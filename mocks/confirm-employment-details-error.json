@@ -1,0 +1,10 @@
+{
+    "payload": {
+      "status": 500,
+      "type": "BAD_REQUEST",
+      "errorCode": "INTERNAL_ERROR",
+      "title": "The robot messed up",
+      "message": "Looks like a technical issue. Don't worry, we've sent our human engineers to fix it. We'll let you know when it's done.",
+      "description": "All Kyc steps are already completed"
+    }
+  }

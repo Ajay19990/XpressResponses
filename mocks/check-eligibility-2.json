@@ -1,0 +1,24 @@
+{
+    "payload": {
+      "actions": [
+        {
+          "action": "XPRESS_WAIT",
+          "url": "v1/xpress/check-eligibility-3",
+          "type": "PRIMARY",
+          "poll": {
+            "intervalInSeconds": 5,
+            "retryCount": 4,
+            "type": "LINEAR",
+            "startPage": {
+              "subtutle": "Getting things ready..."
+            },
+            "terminalPage": {
+              "title": "This is taking longer than usual",
+              "subtitle": "This is usually because we don't know enough about your spending and credit history.",
+              "imageUrl": "https://via.placeholder.com/221x199.png"
+            }
+          }
+        }
+      ]
+    }
+  }

@@ -1,0 +1,12 @@
+{
+    "payload": {
+      "actions": [
+        {
+          "action": "XPRESS_BLOCKED",
+          "url": "/v1/xpress/blocked",
+          "type": "PRIMARY"
+        }
+      ]
+    }
+  }
+  

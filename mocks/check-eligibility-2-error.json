@@ -1,0 +1,14 @@
+{
+  "payload": {
+    "status": 500,
+    "type": "INTERNAL_SERVER_ERROR",
+    "errorCode": "INTERNAL_SERVER_ERROR",
+    "imageUrl": "https://via.placeholder.com/300x400.png",
+    "title": "The robot messed up",
+    "message": "Looks like a technical issue. Don't worry, we've sent our human engineers to fix it. We'll let you know when it's done.",
+    "description": "All Kyc steps are already completed",
+    "actions": [
+      
+    ]
+  }
+}

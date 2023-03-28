@@ -1,0 +1,14 @@
+{
+    "payload": {
+      "title": "Great news! You are eligible for XpressCash of",
+      "imageUrl": "https://assets6.lottiefiles.com/packages/lf20_obhph3sh.json",
+      "amount": 200000,
+      "actions": [
+        {
+          "action": "LOAN_SELECT_PLAN",
+          "url": "path/for/xpress/lps",
+          "type": "PRIMARY"
+        }
+      ]
+    }
+  }

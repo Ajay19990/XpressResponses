@@ -1,0 +1,108 @@
+{
+  "payload": {
+    "title": "Select a bank account",
+    "subtitle": "Add account is where you receive your income",
+    "banks": [
+      {
+        "title": "HDFC",
+        "imageUrl": "https://via.placeholder.com/48x48.png",
+        "accountNumber": "322xxxxxxxxxx24",
+        "ifscCode": "HDFC0001225",
+        "refkey": "refkey (used for sending back to backend in requestBody to verify the bank details)",
+        "isNachSetup": false
+      },
+      {
+        "title": "ICICI",
+        "imageUrl": "https://via.placeholder.com/48x48.png",
+        "accountNumber": "243xxxxxxxx34",
+        "ifscCode": "ICIC0001225",
+        "refkey": "refkey (used for sending back to backend in requestBody to verify the bank details)",
+        "isNachSetup": true
+      },
+      {
+        "title": "Punjab National Bank",
+        "imageUrl": "https://via.placeholder.com/48x48.png",
+        "accountNumber": "344xxxxxxxxx34",
+        "ifscCode": "ICIC0001225",
+        "refkey": "refkey (used for sending back to backend in requestBody to verify the bank details)",
+        "isNachSetup": false
+      },
+      {
+        "title": "State Bank of India",
+        "imageUrl": "https://via.placeholder.com/48x48.png",
+        "accountNumber": "344xxxxxxxxx34",
+        "ifscCode": "ICIC0001225",
+        "id": "refkey (used for sending back to backend in requestBody to verify the bank details)",
+        "isNachSetup": false
+      },
+      {
+        "title": "Bank of Baroda",
+        "imageUrl": "https://via.placeholder.com/48x48.png",
+        "accountNumber": "344xxxxxxxxx34",
+        "ifscCode": "ICIC0001225",
+        "id": "refkey (used for sending back to backend in requestBody to verify the bank details)",
+        "isNachSetup": false
+      },
+      {
+        "title": "Indusnd Bank",
+        "imageUrl": "https://via.placeholder.com/48x48.png",
+        "accountNumber": "344xxxxxxxxx34",
+        "ifscCode": "ICIC0001225",
+        "id": "refkey (used for sending back to backend in requestBody to verify the bank details)",
+        "isNachSetup": false
+      },
+      {
+        "title": "PMC Bank",
+        "imageUrl": "https://via.placeholder.com/48x48.png",
+        "accountNumber": "344xxxxxxxxx34",
+        "ifscCode": "ICIC0001225",
+        "refkey": "refkey (used for sending back to backend in requestBody to verify the bank details)",
+        "isNachSetup": false
+      },
+      {
+        "title": "Federal Bankl",
+        "imageUrl": "https://via.placeholder.com/48x48.png",
+        "accountNumber": "344xxxxxxxxx34",
+        "ifscCode": "ICIC0001225",
+        "refkey": "refkey (used for sending back to backend in requestBody to verify the bank details)",
+        "isNachSetup": false
+      }
+    ],
+    "actions": [
+      {
+        "action": "XPRESS_ADD_BANK_AUTOPAY_INFO",
+        "type": "XPRESS_ADD_BANK",
+        "title": "Add new bank account"
+      },
+      {
+        "action": "XPRESS_CONFIRM_BANK",
+        "url": "/v1/xpress/confirm-bank",
+        "type": "PRIMARY",
+        "title": "Continue"
+      }
+    ],
+    "bottomSheets": [
+      {
+        "key": "XPRESS_ADD_BANK_AUTOPAY_INFO",
+        "type": "titleSubtitle",
+        "page": {
+          "title": "Auto-pay on your current bank account will be cancelled",
+          "subtitle": "If you continue with a new account, auto-pay on your HDFC XXXX 3921 account will be cancelled.  \nYou can always setup auto-pay on the new account later.",
+          "actions": [
+            {
+              "title": "Continue with new account",
+              "url": "/v1/xpress/bank-addition",
+              "action": "XPRESS_ADD_BANK",
+              "type": "PRIMARY"
+            },
+            {
+              "title": "Cancel",
+              "action": "XPRESS_CANCEL",
+              "type": "SECONDARY"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

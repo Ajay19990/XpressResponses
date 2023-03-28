@@ -1,0 +1,24 @@
+{
+    "payload": {
+      "title": "Sign loan agreement",
+      "subtitle": null,
+      "imageUrl": null,
+      "actions": [
+        {
+          "action": "XPRESS_VERIFY_OTP",
+          "url": "/v1/xpress/agreement/sign",
+          "title": "Verify OTP",
+          "type": "PRIMARY"
+        },
+        {
+          "action": "XPRESS_SEND_OTP",
+          "url": "/v1/xpress/agreement/otp",
+          "title": "Resend OTP",
+          "type": "SECONDARY"
+        }
+      ],
+      "otpTitle": "Verify OTP to sign agreement",
+      "otpSubtitle": "An OTP has been sent to +91 8787008271",
+      "agreementPDF": "https://s3.ap-south-1.amazonaws.com/pscore.sandbox/uploads/10110730/100/generated-loan_application-2069872_ljJ5ueW.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQVI2AR4OLO4KBHSV%2F20230224%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20230224T075501Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=842cc7963007458883f2689898edb3dce30afcce5bd479ba12da0007880726a5"
+    }
+  }

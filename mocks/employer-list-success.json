@@ -1,0 +1,29 @@
+{
+    "payload": {
+      "title": "Employer name",
+      "sections": [
+        {
+          "title": "A",
+          "items": [
+            {
+              "title": "Air India",
+              "imageUrl": null
+            },
+            {
+                "title": "Air Asia",
+                "imageUrl": null
+            }
+          ]
+        },
+        {
+          "title": "B",
+          "items": [
+            {
+              "title": "Bombay Shaving Company",
+              "imageUrl": null
+            }
+          ]
+        }
+      ]
+    }
+  }

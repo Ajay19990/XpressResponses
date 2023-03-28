@@ -1,0 +1,157 @@
+{
+  "payload": {
+    "title": "Review details",
+    "subtitle": null,
+    "imageUrl": "/products/xpress/ic_loan_disbursed.png",
+    "actions": [
+      {
+        "action": "XPRESS_CONFIRM_LOAN_REVIEW",
+        "url": "/v1/xpress/loan-review",
+        "title": "Confirm and continue",
+        "type": "PRIMARY"
+      }
+    ],
+    "disbursalAmount": {
+      "amount": 89785.04,
+      "processingFee": 3327.6,
+      "insurance": 887.36,
+      "insuranceText": {
+        "type": "XPRESS_INSURANCE_INFO",
+        "fullText": "Secure your loan for &#8377;887.36. Your EMIs are covered, in case of emergencies",
+        "content": "<html><head> <style> @font-face { font-family: Roboto-Regular; font-weight: 400; src: local('Roboto-Regular'), url(Roboto-Regular.ttf) format('opentype') } body { font-size: 14px; font-family: Roboto-Regular; color: #000 } </style></head><body style='color:#737373'>Secure your loan for &#8377;887.36. Your EMIs are covered, in case of emergencies<br><a href='INSURANCE_KNOW_MORE'>Know more</a></body></html>",
+        "links": [
+          {
+            "key": "Know more",
+            "url": null,
+            "bottomSheetId": "insuranceTextKnowMore"
+          }
+        ]
+      }
+    },
+    "loanDetails": [
+      {
+        "key": "EMI plan selected",
+        "value": "₹9,320 for 12 months"
+      },
+      {
+        "key": "Rate of interest",
+        "value": "2.78% per month"
+      },
+      {
+        "key": "Total repayment amount",
+        "value": "₹1,11,840"
+      }
+    ],
+    "repaymentSchedule": [
+      {
+        "title": "First EMI",
+        "amount": "₹9,491",
+        "subtitle": {
+          "type": "",
+          "fullText": "Includes interest for 01 Mar - 03 Mar",
+          "content": "<html><head> <style> @font-face { font-family: Roboto-Regular; font-weight: 400; src: local('Roboto-Regular'), url(Roboto-Regular.ttf) format('opentype') } body { font-size: 14px; font-family: Roboto-Regular; color: #000 } </style></head><body style='color:#737373'>Includes interest for 01 Mar - 03 Mar<br><a href='INSURANCE_KNOW_MORE'>Know more</a></body></html>",
+          "links": [
+            {
+              "key": "Know more",
+              "url": null,
+              "bottomSheetId": "partialEmiKnowMore"
+            }
+          ]
+        },
+        "dueDate": "Due 03 Jan"
+      },
+      {
+        "title": "Rest of the EMIs",
+        "amount": "₹9,320",
+        "subtitle": {
+          "type": "",
+          "fullText": "from January to January",
+          "content": "<html><head> <style> @font-face { font-family: Roboto-Regular; font-weight: 400; src: local('Roboto-Regular'), url(Roboto-Regular.ttf) format('opentype') } body { font-size: 14px; font-family: Roboto-Regular; color: #000 } </style></head><body style='color:#737373'>from January to January</body></html>",
+          "links": []
+        },
+        "dueDate": null
+      }
+    ],
+    "declaration": {
+      "type": "XPRESS_INSURANCE_DECLARATION",
+      "fullText": "By continuing, I agree to the PayU Finance Terms of Service and Acko’s Terms & Conditions",
+      "content": "<html><head> <style> @font-face { font-family: Roboto-Regular; font-weight: 400; src: local('Roboto-Regular'), url(Roboto-Regular.ttf) format('opentype') } body { font-size: 14px; font-family: Roboto-Regular; color: #000; } </style></head><body style='color:#737373; text-align: center'>By continuing, I agree to the <a href='INSURANCE_KNOW_MORE'>PayU Finance Terms of Service</a> and <a href='INSURANCE_KNOW_MORE'>Acko's Terms & Conditions</a></body></html>",
+      "links": [
+        {
+          "key": "PayU Finance Terms of Service",
+          "url": "https://sandbox-web.lazypay.in/insurance-tnc",
+          "bottomSheetId": null
+        },
+        {
+          "key": "Acko's Terms & Conditions",
+          "url": "https://sandbox-web.lazypay.in/document-viewer?link=https://ps-mumbai-app-assets-production.s3.ap-south-1.amazonaws.com/resources/docs/acko_insurance_tnc.pdf",
+          "bottomSheetId": null
+        }
+      ]
+    },
+    "bottomSheets": [
+      {
+        "id": "insuranceTextKnowMore",
+        "key": null,
+        "type": "listItemsBottomSheet",
+        "page": {
+          "title": "Loan Insurance",
+          "subtitle": null,
+          "imageUrl": "/products/xpress/ic_insurance_banner.png",
+          "actions": [
+            {
+              "action": "OK_GOT_IT",
+              "title": "Okay, got it",
+              "type": "PRIMARY"
+            }
+          ],
+          "listItems": [
+            {
+              "key": "1, 2, 3 or 4 EMIs covered",
+              "value": "In case of hospitalization for 4, 7, 10 or 15 days respectively"
+            },
+            {
+              "key": "100% loan amount insured",
+              "value": "In case of accidental death or disability"
+            },
+            {
+              "key": "Hassle-free claims",
+              "value": "Assured payment within 7 hours"
+            },
+            {
+              "key": "All illnesses covered, including COVID-19",
+              "value": "Unless it’s a pre-existing medical condition"
+            }
+          ],
+          "hyperText": null
+        }
+      },
+      {
+        "id": "partialEmiKnowMore",
+        "key": null,
+        "type": "titleHyperTextBottomSheet",
+        "page": {
+          "title": "How is your first EMI calculated?",
+          "subtitle": null,
+          "imageUrl": null,
+          "actions": [
+            {
+              "action": "OK_GOT_IT",
+              "title": "Okay, got it",
+              "type": "PRIMARY"
+            }
+          ],
+          "listItems": null,
+          "hyperText": {
+            "type": null,
+            "fullText": null,
+            "content": "<html><head> <style> @font-face { font-family: Roboto-Regular; font-weight: 400; src: local('Roboto-Regular'), url(Roboto-Regular.ttf) format('opentype') } body { font-size: 14px; font-family: Roboto-Regular; color: #000 } </style></head><body style='color:#737373'> XpressCash EMIs usually start on the <b>3rd</b> of the month. Let's say you received the money on <b>1 June</b>.<br><br>As it would be unfair for us to start your EMIs as early as <b>3 June</b>, your first EMI would be on <b>3 July</b>.<br><br>However, since you received the money for an extra <b>3 days</b> (from 1 to 3 June), the interest charges for that period will be included with your first EMI. </html>",
+            "links": []
+          }
+        }
+      }
+    ]
+  }
+}
+
+

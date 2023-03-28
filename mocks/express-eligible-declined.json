@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "title": "Sorry, we can’t offer you XpressCash right now",
+    "subtitle": "This is usually because we don’t know enough about your spending and credit history. Please check back in 2 months.",
+    "imageUrl": "https://via.placeholder.com/221x199.png",
+    "actions": [
+      {
+        "action": "XPRESS_NOTIFY_LATER",
+        "url": "path/for/xpress/notify/in/two/months",
+        "type": "PRIMARY",
+        "title": "Notify me in 2 months"
+      }
+    ]
+  }
+}

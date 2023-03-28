@@ -1,0 +1,27 @@
+{
+    "payload": {
+      "title": "Sub-industry type",
+      "list": [
+        {
+          "title": "Finance",
+          "isSelected": false
+        },
+        {
+          "title": "Employment",
+          "isSelected": false
+        },
+        {
+          "title": "Aviation",
+          "isSelected": false
+        },
+        {
+          "title": "Entertainment",
+          "isSelected": false
+        },
+        {
+          "title": "Banking",
+          "isSelected": false
+        }
+      ]
+    }
+  }
